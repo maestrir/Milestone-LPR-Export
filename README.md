@@ -76,5 +76,4 @@ Questo script è distribuito sotto licenza MIT. Vedi file `LICENSE`.
 
 ## 🙌 Autore
 
-Sviluppato da **Roby** per l’ottimizzazione e semplificazione delle attività LPR in ambienti Milestone XProtect.
-
+Sviluppato da **Roberto Mestri** per l’ottimizzazione e semplificazione delle attività LPR in ambienti Milestone XProtect.
