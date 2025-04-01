@@ -1,4 +1,6 @@
-﻿Connect-ManagementServer -ShowDialog -AcceptEula
+Milestone-LPR-Export.ps1 - Versione 1.2
+
+ Connect-ManagementServer -ShowDialog -AcceptEula
 
 if (-not (Get-Module -ListAvailable -Name ImportExcel)) {
     Install-Module ImportExcel -Force -Scope CurrentUser
