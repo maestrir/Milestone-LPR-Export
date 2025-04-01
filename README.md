@@ -70,6 +70,16 @@ LPR_Export_20250321_102233\
   - Ultime 24 ore / 7 giorni / 30 giorni / Tutto
   - Oppure personalizzato con formato: `yyyy-MM-dd HH:mm:ss.fff`
 
+  ## 📦 Milestone LPR Export - Changelog
+
+### 🔄 Versione 1.02 (Aprile 2025)
+- Suddivisione automatica dei report Excel in blocchi da 750 eventi per evitare file troppo pesanti
+- Aggiunta nel nome file del periodo coperto da ciascun blocco (`ggmmaa_ggmmaa`)
+- Cartelle immagini suddivise per blocco (`Snapshots/001`, `Snapshots/002`, ...)
+- File principale `*_Eventi_LPR_Tutti.xlsx` generato senza immagini per maggiore leggerezza
+- Conservata la qualità immagine selezionata all'inizio dello script
+
+
 ## 📋 Licenza
 
 Questo script è distribuito sotto licenza MIT. Vedi file `LICENSE`.
